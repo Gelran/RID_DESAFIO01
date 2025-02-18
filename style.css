@@ -1,0 +1,161 @@
+*{
+font-family: "inter";
+}
+
+#menu-sup{
+    background-color:#303030;
+    padding-bottom:10%;
+    margin-top: -50px;
+    padding-top: 15%;
+    margin-left: -11px;
+    margin-right: -11px;
+    padding-left: 5%;
+    color: #FFFFFF;
+}
+
+#titulo-sup{
+    font-weight: 600;
+    font-size: 58px;
+}
+
+#txtinfo-sup{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    margin-top: -17px;
+    margin-left: 2px;
+}
+
+.aumentado{
+    font-size: 2em;
+    background-color:#F9F9F9 ;
+    font-weight: 600;
+}
+
+#menuinfo{
+
+    background-color:#F9F9F9 !important ;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    align-items: center;
+    padding-top: 4%;
+    margin-left: 10%;
+    font-weight: 400;
+}
+
+#menu-img{
+    margin: 145px 10px 15px 5px;
+    display: flex;
+    align-items: center;
+    width: -10px;
+    padding: 50px 50px 10px 0px;
+    
+}
+
+#secaotxt-img{
+    margin: 124px 0px ;
+    align-items: center;
+    padding: 5px 50px 20px 20px;
+    
+    
+}
+
+#titulo-img{
+    width: 735px;
+    height: 100%;
+    font-size: 42px;
+    font-weight: 500;
+    line-height: 20px;
+    display: inline-block;
+    
+}
+
+#texto-img{
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 30px;
+}
+    
+#formulario{
+    background-color:#303030 ;
+    color: #FFFFFF;
+    text-align: center;
+    margin-bottom: -10px;
+    margin-left: -10px;
+    margin-right: -10px
+    
+}
+
+#titulo-form{
+
+font-weight: 700;
+font-size: 34px;
+line-height: 48px;
+letter-spacing: 0%;
+padding-top: 100px;
+padding-bottom: 10px;
+}
+
+input{
+
+    border-radius: 10px;
+    border: 2px;
+    width:508px;
+    height: 72px;
+    box-sizing: border-box;
+    padding: 30px 30px 30px 30px;
+    margin: 30px;
+    background-color:#FFFFFF ;
+    transition: all 0.3s ease;  
+}
+
+
+input[type="text"]{
+font-family: "Raleway";
+font-weight: 700;
+font-size: 24px;
+line-height: 30px;
+color: #b19f9f4d 30%
+}
+
+input[type="email"]{
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    color: #b19f9f4d 30%
+}
+
+button{
+
+    background-color: #C07212;
+    color: #FFFFFF;
+    width: 286px;
+    height: 74px;
+    padding: 20px 40px 20px 40px;
+    margin: 50px;
+    top: 1955px;
+    left: 577px;
+    border-radius: 10px;
+    border: 2px;
+    cursor: pointer;
+}
+
+button[type="submit"]{
+
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 30px;
+    color: #FFFFFF 
+}
+
+button:hover{
+
+    transform: translateY(-8px);
+    transition-duration: 0.5s;
+    box-shadow: 5px 5px 5px  #000000;
+    background-color: #f5a13b;
+}
+
